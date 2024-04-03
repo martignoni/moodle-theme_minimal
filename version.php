@@ -24,9 +24,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2023101200;
-$plugin->requires  = 2022041900; // Moodle version requirement.
+$plugin->version   = 2024040300;
+$plugin->requires  = 2024040200; // Moodle version requirement.
 $plugin->component = 'theme_minimal';
 $plugin->dependencies = [
-    'theme_boost' => 2018120300 // Boost theme version requirement.
+    'theme_boost' => 2023100900 // Boost theme version requirement.
 ];
+$plugin->release   = 'v0.0.2'; // Human-readable version name.
+$plugin->maturity  = MATURITY_BETA; // How stable the plugin is.
