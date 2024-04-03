@@ -1,8 +1,6 @@
 # Minimal Moodle Theme
 
-A minimal Boost child theme for Moodle
-
-## About
+A minimal Boost child theme for Moodle.
 
 ## Credits
 
